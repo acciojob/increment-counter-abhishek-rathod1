@@ -2,7 +2,7 @@
 
 let count = 0;
 function increment() {
-	alert(`button clickes ${count}`);
+	alert(count);
 	count++;
 	let counterP = document.getElementById("counter");
 	counterP.textContent = count;
